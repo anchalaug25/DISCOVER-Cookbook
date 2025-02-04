@@ -1,41 +1,38 @@
-## DISCOVER Handbook Governance Guide
+# Governance Document  
 
-The purpose of this document is to outline the purpose, roles, and decision processes for this repository. The hope is to guide the community on how to accept contributions and maintain the cookbook to the standards of the NumFOCUS Community. 
+## 1. Overview  
+This document defines the governance structure of the DISCOVER-Cookbook repository under NumFOCUS.  
+It outlines the roles, responsibilities, and decision-making process for maintainers and contributors.  
 
-# **Open Source Project Objectives**
+## 2. Project Maintainers  
+- This repository is maintained by the following individuals:  
+  - @alternate (mentioned in issue #75)  
+  - Other active maintainers from the NumFOCUS team  
+- Maintainers are responsible for reviewing pull requests (PRs), merging changes, and ensuring the project's quality.  
+- Maintainers also guide new contributors and manage project discussions.  
 
-* Conference Organizer Enablement
-  - Conference organizers should be able to easily access and use the handbook
-  - Every effort will be made to be responsive to issues
-* Repo Quality
-  - Repo remains in healthy state with good-quality, consistent codebase
-  - Continuous Integration: Using Github Actions we are able to deploy the guide, preview pull-requests, and run quality checks on content.
+## 3. Contribution Guidelines  
+- All contributors must follow the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines.  
+- Contributors should open issues for discussions before submitting major changes.  
+- PRs should be reviewed by at least one maintainer before being merged.  
 
-# **Roles and Definitions**
-* Contributor, Commenter, User
-  - Submitting contributions, creating issues, or using the contents of the repository
-  - Reviewing pull requests
-* Maintainer
-  - Experienced project members who have made numerous contributions
-  - Write control: Approve pull/merge requests (verify submissions vs. acceptance criteria)
-  - Monitor github issues and drive timely resolution
-  - Ensure project information such as the Readme, Contributing docs, wiki, etc., kept up-to-date
-* NumFOCUS DISC Committee
-  - Lead the project in terms of versioning, quality assurance, and overarching objectives
-  - Act as a facilitator in resolving technical and content conflicts
-  - Designate new approvers
-* NumFOCUS Administration Board
-  - Approve member elections to DISC Committee
-  - Provide oversight for committee
-# **Acceptance Criteria and Process**
-  - All source code and document copyrights will be owned by Contributer
-  - Submissions of source code and documents implies a perpetual MIT license to the DISCOVER community
-  - Contributions are via pull requests
-    - Maintainers will assign approvers to contributor pull requests
-    - Approvers can self-assign their reviewers
-    - For complex or invasive contributions, Maintainers may request approval from specific reviewers
-    - At least one review approval is required to complete a pull request
-    - The goal is to be responsive to contributors while ensuring acceptance criteria is met and to facilitate their submissions
-    - Approval is dependent upon adherence to the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md), and alignment with
-repository goals of maintainability, completeness, and quality
-    - Conflicts or questions will ultimately be resolved by the NumFOCUS DISC Committee
+## 4. Decision-Making Process  
+- Major decisions (such as feature additions, deprecations, or repo structure changes) are discussed in GitHub Issues.  
+- Consensus is sought among maintainers, but final decisions rest with the lead maintainers.  
+- Minor fixes and documentation updates may be merged without extensive review.  
+
+## 5. Communication  
+- Discussions happen primarily on:  
+  - [GitHub Issues](https://github.com/numfocus/DISCOVER-Cookbook/issues) – For feature requests, bug reports, and general discussions.  
+  - Pull Requests – For code contributions and fixes.  
+  - [NumFOCUS Community Forums](https://discuss.numfocus.org/) – For broader discussions (if applicable).  
+
+## 6. How to Become a Maintainer?  
+- Active contributors may be invited to become maintainers based on their contributions.  
+- Responsibilities of maintainers include reviewing PRs, managing issues, and engaging with the community.  
+
+## 7. Code of Conduct  
+- All contributors must follow the project's [Code of Conduct](./CODE_OF_CONDUCT.md) to maintain a respectful and inclusive environment.  
+
+## 8. License  
+- This project follows the MIT License. Please check the [LICENSE](./LICENSE) file for details.
